@@ -12,3 +12,10 @@ date, which is hard-coded right now. But probably not.
 $ pip install git+https://github.com/jakekara/covid-date
 ```
 
+### Usage
+
+```bash
+$ covid-date
+Covid Year 105
+```
+
