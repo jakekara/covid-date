@@ -3,10 +3,8 @@
 Print the covid date since you entered lockdown. Each day is one year!
 
 For those of us working at Yale, the start date was usually March
-18. A future version may add a config file so you can change this
-date, which is hard-coded right now. But probably not. If you want to
-change the start date without adding dotfile support, the easiest
-approach is to just fork this repo and modify covid_date.py.
+18. See the "Use a different date" section below to set a custom covid
+epoch start date.
 
 ### Install
 
@@ -21,3 +19,15 @@ $ covid-date
 Covid Year 105
 ```
 
+### Use a different date
+
+To use a different date, create a yaml file called "covid-date.yaml"
+in your home directory. (There's an example file in this repo that
+changes the start date to March 15, 2020).
+
+The yaml file should have a single value, "start" in YYYY-MM-DD
+format. Like so:
+
+```yaml
+start: 2020-03-15
+```

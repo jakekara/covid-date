@@ -9,6 +9,9 @@ setup(name='covid-date',
       author_email='jake@jakekara.com',
       url='https://jakekara.com',
       packages=['covid_date'],
+      install_requires = [
+        "pyyaml"
+      ],
       entry_points = {
         'console_scripts': ['covid-date=covid_date.__main__:main'],
     }
