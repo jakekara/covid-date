@@ -10,7 +10,7 @@ setup(name='covid-date',
       url='https://jakekara.com',
       packages=['covid_date'],
       install_requires = [
-        "pyyaml"
+        "pyyaml>=5.1"
       ],
       entry_points = {
         'console_scripts': ['covid-date=covid_date.__main__:main'],
