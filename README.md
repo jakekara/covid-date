@@ -12,6 +12,11 @@ epoch start date.
 $ pip install git+https://github.com/jakekara/covid-date
 ```
 
+Or use
+[pipx](https://packaging.python.org/guides/installing-stand-alone-command-line-tools/). It's
+a good way to install standalone CLI tools.
+
+
 ### Usage
 
 ```bash
